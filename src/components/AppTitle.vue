@@ -11,5 +11,6 @@ export default {
 <style>
     h1 {
         text-align: center;
+        color: white;
     }
 </style>
