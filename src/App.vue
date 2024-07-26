@@ -1,8 +1,10 @@
 <script>
   import AppTitle from './components/AppTitle.vue';
+  import AppJumbo from './components/AppJumbo.vue';
   export default {
     components: {
-      AppTitle
+      AppTitle,
+      AppJumbo
     }
   }
 </script>
@@ -11,6 +13,9 @@
  <header>
     <AppTitle />
  </header>
+ <main>
+    <AppJumbo />
+ </main>
 </template>
 
 <style scoped>
